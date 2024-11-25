@@ -1,17 +1,17 @@
 #include<iostream>
 using namespace std;
 int main()
-{   int a=0;
-    //Diamond by ternary operator
-    for(int r=1; r<=9; ++r)
+{
+    // row no print in Right angle triangle
+    for(int r=1; r<=5; ++r)
     {
-        (r<=5)? a++:a--;
-        
-        for(int c=1; c<=9; ++c)
+        int a=r;
+        for(int c=1; c<=5; ++c)
         {
-            if(c>=6-a && c<=4+a)
+            if(c<=r)
             {
-                cout<<"*";
+                cout<<a;
+                a++;
             }
             else
             {
