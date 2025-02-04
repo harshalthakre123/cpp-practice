@@ -7,13 +7,8 @@ int main()
     {
         for(int c=1; c<=5; ++c)
         {
-            if(c<=r)
+            if(c<=5-r)
             {
-                cout<<r;
-            }
-            else
-            {
-                cout<<" ";
             }
         }
         cout<<"\n";
@@ -26,6 +21,11 @@ int main()
         {
             if(c<=r)
             {
+                cout<<r;
+            }
+            else if(c>=r)
+            {
+                cout<<" ";
                 cout<<c;
             }
             else

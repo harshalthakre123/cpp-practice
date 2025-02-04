@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int a, b, ans, lcm;
+    int a, b, ans;
     cout<<"Enter any two no.";
     cin>>a>>b;
     if(a>b)

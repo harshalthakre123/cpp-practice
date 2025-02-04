@@ -14,7 +14,7 @@ int main()
             ans=i;
         }
         }
-        // cout<<ans<<"HCF"<<endl;
+        cout<<ans<<"HCF"<<endl;
         lcm=(a*b)/ans;
         cout<<lcm;
     }
@@ -26,15 +26,13 @@ int main()
             ans=i;
         }
         }
-        // cout<<ans<<"HCF"<<endl;
+        cout<<ans<<"HCF"<<endl;
         lcm=(a*b)/ans;
         cout<<"LCM is"<<lcm;
 
     }
     else
     {
-        cout<<"HCF is"<<a<<endl;
+        cout<<"HCF and LCM is"<<a<<endl;
     }
-
-    // LCM
 }
